@@ -26,7 +26,7 @@ const EmailSection = () => {
     ? "from-green-300 via-blue-500 to-purple-700 bg-gradient-to-br "
     : `from-blue-300 via-blue-500 to-blue-700 bg-gradient-to-br `;
   const color = toastcolorActive ? `bg-green-500` : `bg-red-500`;
-  const text = successText ? "Email sent successfully!" : "Failed to send email. Please try using a different email provider, such as Gmail or Outlook.";
+  const text = successText ? "Email sent successfully! I'll contact you back! " : "Failed to send email. Please try using a different email provider, such as Gmail or Outlook.";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
