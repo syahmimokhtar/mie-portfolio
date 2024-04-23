@@ -20,7 +20,6 @@ const HeroSection = () => {
       .then(response=>response.blob())
       .then(blob=>
         {
-          console.log('downloading...')
           saveAs(blob, 'syahmi_resume.pdf')
         })
 
