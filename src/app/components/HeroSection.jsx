@@ -70,9 +70,12 @@ const HeroSection = () => {
               I&apos;m looking for new opportunity in front end web development or any job.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit  rounded-full mr-4 bg-gradient-to-br from-blue-300 via-blue-500 to-blue-700 hover:bg-slate-200 text-white">
-              <Link href="/#contact" >Hire Me
-               </Link>
+            <button className="px-1 py-1 w-full sm:w-fit  rounded-full mr-4 bg-gradient-to-br from-blue-300 via-blue-500 to-blue-700 hover:bg-slate-200 text-white">
+              {/* <Link href="/#contact" >Hire Me
+               </Link> */}
+               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-5">
+               <Link href="/#contact" >Hire Me </Link></span>
+
             </button>
             <button onClick={downloadFile} className="px-1  py-1  w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-300 via-blue-500 to-blue-700 hover:bg-slate-800  text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-5">

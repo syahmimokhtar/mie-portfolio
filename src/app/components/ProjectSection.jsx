@@ -19,7 +19,7 @@ const ProjectSection = () => {
     {
       id: 2,
       title: "Movie Trailer App ",
-      description: "Built with React , React Youtube and MaterialUI as UI component Framework",
+      description: "Built with React , React Youtube and MaterialUI as UI component Framework. You can search movies , view ratings and watch trailers!",
       image: "/images/projects/movietrailerapp/movie.jpg",
       tag: ["All", "Web"],
       gitUrl: "/",
@@ -28,9 +28,9 @@ const ProjectSection = () => {
     
     {
       id: 3,
-      title: "SoundMie",
-      description: `Built with React incorporating SpotifyAPI and Ant Design as UI component Framework
-      Disclaimer : project not fuly completed yet, just testing out Spotify API in react (proof off concept)
+      title: "SpootifyMie",
+      description: `Built with React incorporating SpotifyAPI and Ant Design as UI component Framework. You can search artists, songs and play musics (premium account required).
+      Disclaimer : Project is not fully optimized/completed,  just testing out Spotify API in react (proof off concept)
       `,
       image: "/images/projects/soundmie/soundmie.jpg",
       tag: ["All", "Web"],
@@ -89,7 +89,7 @@ const ProjectSection = () => {
         <ProjectTag
           onClick={handlteTagChange}
           name="Other"
-          isSelected={tag === "Others"}
+          isSelected={tag === "Other"}
         />
       </div>
 

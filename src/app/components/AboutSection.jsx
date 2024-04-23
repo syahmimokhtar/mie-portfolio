@@ -84,7 +84,7 @@ const AboutSection = () => {
               active={tab === "certifications"}
             >
               {" "}
-              Certifications{" "}
+              Publications{" "}
             </TabButton>
           </div>
           <div className="mt-8">
