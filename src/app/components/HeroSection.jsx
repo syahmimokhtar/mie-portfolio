@@ -14,7 +14,7 @@ const HeroSection = () => {
 
   const downloadFile=()=>
   {
-      const fileUrl = '/images/resume/resumesyahmi.pdf';
+      const fileUrl = '/images/resume/syahmi_resume.pdf';
 
       fetch(fileUrl)
       .then(response=>response.blob())
