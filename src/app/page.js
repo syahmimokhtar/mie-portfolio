@@ -18,7 +18,7 @@ const Home = () => {
         </Head>
         
       <NavBar /> 
-        <div className="container mt-24 mx-auto py-4 px-12">
+          <div className="container mt-24 mx-auto py-4 px-12">
            <HeroSection />
            {/* <AchievementSection/> */}
            <AboutSection />

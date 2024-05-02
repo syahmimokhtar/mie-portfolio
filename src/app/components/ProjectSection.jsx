@@ -40,6 +40,18 @@ const ProjectSection = () => {
 
     {
       id: 4,
+      title: "ValorantMie",
+      description: `Welcome to ValorantMie, your ultimate destination for all things in Valorant! Dive into our comprehensive info repository of agent profiles, weapons and much more!
+      All powered by the latest development crafted using Next.js , Tailwind CSS , React.`,
+      image: "/images/projects/valorantmie/valorantMie.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "https://valorantmie.vercel.app",
+    },
+
+
+    {
+      id: 5,
       title: "Research Paper",
       description: "Managed to publish research paper regarding my final year project (4th year of bachelor studies) on IJEAT.",
       image: "/images/projects/research.png",
