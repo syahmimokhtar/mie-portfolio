@@ -26,17 +26,17 @@ const ProjectSection = () => {
       previewUrl: "https://syahmimokhtar.github.io/movie-trailer-appmie/",
     },
     
-    {
-      id: 3,
-      title: "SpootifyMie",
-      description: `Built with React incorporating SpotifyAPI and Ant Design as UI component Framework. You can search artists, songs and play musics (premium account required).
-      Disclaimer : Project is not fully optimized/completed,  just testing out Spotify API in react (proof off concept)
-      `,
-      image: "/images/projects/soundmie/soundmie.jpg",
-      tag: ["All", "Web"],
-      gitUrl: "/",
-      previewUrl: "https://syahmimokhtar.github.io/spootifi-mieapp/",
-    },
+    // {
+    //   id: 3,
+    //   title: "SpootifyMie",
+    //   description: `Built with React incorporating SpotifyAPI and Ant Design as UI component Framework. You can search artists, songs and play musics (premium account required).
+    //   Disclaimer : Project is not fully optimized/completed,  just testing out Spotify API in react (proof off concept)
+    //   `,
+    //   image: "/images/projects/soundmie/soundmie.jpg",
+    //   tag: ["All", "Web"],
+    //   gitUrl: "/",
+    //   previewUrl: "https://syahmimokhtar.github.io/spootifi-mieapp/",
+    // },
 
     {
       id: 4,

@@ -4,17 +4,33 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 import Link from 'next/link';
 
+
 const TAB_DATA = [
   {
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <>
+      <div className="relative grid grid-cols-5 gap-2 container mx-auto"> 
+          <img src="/images/techs/js.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
+          <img src="/images/techs/html5.svg"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
+          <img src="/images/techs/css.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
+          <img src="/images/techs/react.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
+          <img src="/images/techs/next-js.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
+
+      </div>
+
+        <ul className="list-disc pl-2">
         <li>Javascript</li>
-        <li>HTML, CSS, TailwindCSS</li>
-        <li>MaterialUI, AntDesign</li>
+        <li>HTML, CSS, Jquery, TailwindCSS</li>
+        <li>MaterialUI </li>
         <li>React</li>
-      </ul>
+        <li>Next JS</li>
+        </ul>
+
+  
+      </>
+  
     ),
   },
   {
