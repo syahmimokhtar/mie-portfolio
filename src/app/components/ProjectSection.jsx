@@ -61,6 +61,18 @@ const ProjectSection = () => {
       previewUrl: "https://www.ijeat.org/wp-content/uploads/papers/v9i1/A2633109119.pdf",
     },
 
+    
+    {
+      id: 6,
+      title: "EF SET English Certificate",
+      description: "Managed to earned  Education First Standard English Test.",
+      image: "/images/efset.png",
+      tag: ["All", "Other"],
+      gitUrl: "/",
+      previewUrl: "https://cert.efset.org/E5FwDX",
+    },
+
+
   ];
 
   const [tag, setTag] = useState("All");
