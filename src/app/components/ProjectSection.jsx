@@ -65,7 +65,7 @@ const ProjectSection = () => {
     {
       id: 6,
       title: "EF SET English Certificate",
-      description: "Managed to earned  Education First Standard English Test.",
+      description: "Earned Education First Standard English Test Certificate.",
       image: "/images/efset.png",
       tag: ["All", "Other"],
       gitUrl: "/",
