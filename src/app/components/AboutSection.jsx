@@ -38,8 +38,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Foundation Studies in Agricultural Science , Universiti Putra Malaysia (UPM)</li>
         <li>Bachelor in Software Engineering , Universiti Putra Malaysia (UPM) </li>
+        <li>Foundation Studies in Agricultural Science , Universiti Putra Malaysia (UPM)</li>
       </ul>
     ),
   },
@@ -50,7 +50,13 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Published Paper writing on International Journal of Engineering and Advanced Technology (IJEAT)
            <Link target="_blank" href={"https://www.ijeat.org/wp-content/uploads/papers/v9i1/A2633109119.pdf"}><span className="text-blue-500 italic"> Refer here</span></Link></li>
+           <li>
+            Earned English Certificate from EFSET.org <Link target="_blank" href={"https://cert.efset.org/E5FwDX"}><span className="text-blue-500 italic"> Refer here</span></Link>
+          </li>
+
       </ul>
+     
+    
     ),
   },
 ];
@@ -72,13 +78,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hello everyone ! I once a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript ,JQuery , React,  PostgreSQL, PHP
-            ,HTML, CSS, and Git <span className='text-blue-500 italic'> (refer my CV for more info)</span>
-            . I love to learn new web technologies and try to implement it to expand my knowledge in web development.
-            I am  looking forward to work with others and eager to learn from the best.
-            Let us together create amazing applications that are beneficial to the consumers.
+            
+          Hello everyone!
+          I started my career as a full-stack web developer with a passion for crafting interactive and responsive web applications. My experience spans working with technologies such as JavaScript, jQuery, React, PostgreSQL, PHP, HTML, CSS, and Git. You can find more details in my CV.
+          I thrive on learning new web technologies and applying them to enhance my expertise in development. 
+          Recently, I have been exploring new career paths where I can leverage my technical background while broadening my skill set.
+          I am particularly interested in transitioning to roles like technical writing, software testing, or IT support.
+          I am eager to collaborate with others, learn from the best in the industry, and contribute meaningfully to projects that deliver real value to consumers. 
+          Let us work together to create impactful solutions!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -100,8 +107,10 @@ const AboutSection = () => {
               active={tab === "certifications"}
             >
               {" "}
-              Publications{" "}
+              Publications / Certifications
             </TabButton>
+
+            
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}

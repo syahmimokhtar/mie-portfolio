@@ -63,7 +63,7 @@ const HeroSection = () => {
 
           </h1>
           <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">
-              I&apos;m looking for new opportunity in front end web development or any job.
+              I&apos;m looking for new opportunity in any job!.
           </p>
           <div>
             {/* <button className="px-1 py-1 w-full sm:w-fit  rounded-full mr-4 bg-gradient-to-br from-blue-300 via-blue-500 to-blue-700 hover:bg-slate-200 text-white">
@@ -91,7 +91,7 @@ const HeroSection = () => {
           {/* <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] relative"> */}
             <Image
               // src="/images/hero-image.png"
-              src="/images/dp.jpg"
+              src="/images/aboutMe2.png"
               alt="dp-picture"
               width={400}
               height={400}
