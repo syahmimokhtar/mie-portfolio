@@ -126,7 +126,7 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div hidden>
         <form className="flex flex-col" onSubmit={handleSubmit}>
           <div className="mb-6">
             <label

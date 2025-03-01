@@ -89,7 +89,7 @@ const HeroSection = () => {
           transition={{duration:0.5}}
           className="mt-5 col-span-4 place-self-center">
           {/* <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] relative"> */}
-            <Image
+            {/* <Image
               // src="/images/hero-image.png"
               src="/images/aboutMe2.png"
               alt="dp-picture"
@@ -97,7 +97,7 @@ const HeroSection = () => {
               height={400}
               // className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               className="relative rounded-full"
-            />
+            /> */}
           {/* </div> */}
         </motion.div>
         
