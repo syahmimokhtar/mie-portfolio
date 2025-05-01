@@ -11,21 +11,27 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <>
-      <div className="relative grid grid-cols-5 gap-2 container mx-auto"> 
+      {/* <div className="relative grid grid-cols-5 gap-2 container mx-auto"> 
           <img src="/images/techs/js.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
           <img src="/images/techs/html5.svg"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
           <img src="/images/techs/css.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
           <img src="/images/techs/react.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
           <img src="/images/techs/next-js.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
-
-      </div>
+      </div> */}
 
         <ul className="list-disc pl-2">
-        <li>Javascript</li>
-        <li>HTML, CSS, Jquery, TailwindCSS</li>
-        <li>MaterialUI </li>
-        <li>React</li>
-        <li>Next JS</li>
+          <li>Experienced in Customer Service </li>
+          <li>Strong Communication skills and </li>
+          <li>Experienced in writing user guides and software documentation based on IEEE standards</li>
+          <li>Proficient in Microsoft Word, Excel, Powerpoint, Teams, Visio</li>
+          <li>Knowledgeable in Boundary-Value Analysis, Postman, Black Box Testing , Manual Testing</li>
+          <li>Familiar in Content Creation Tools ( Adobe Premiere Pro, Illustrator, Tiktok Studio, Tikfinity)</li>
+          <li>Proficient in wireframing UI/UX Design using designing tools ( Canva, Wix, Figma, Axure RP, Justinmind )</li>
+          <li>Javascript</li>
+          <li>HTML, CSS, Jquery, TailwindCSS</li>
+          <li>MaterialUI </li>
+          <li>React</li>
+          <li>Next JS</li>
         </ul>
 
   
