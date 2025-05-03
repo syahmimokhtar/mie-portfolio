@@ -29,6 +29,7 @@ const TAB_DATA = [
             <li>Proficient in wireframing and UI/UX design using tools like Figma, Axure RP, Canva, Justinmind, and Wix</li>
             <li>Experienced in JavaScript and front-end technologies (HTML, CSS, jQuery, Tailwind CSS, Material UI)</li>
             <li>Proficient in React and Next.js for building dynamic user interfaces</li>
+            <li>Experienced with Jira for task management, issue tracking, and team collaboration in Agile environments</li>
           </ul>
 
       </>
