@@ -11,7 +11,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <>
-      {/* <div className="relative grid grid-cols-5 gap-2 container mx-auto"> 
+        {/* <div className="relative grid grid-cols-5 gap-2 container mx-auto"> 
           <img src="/images/techs/js.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
           <img src="/images/techs/html5.svg"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
           <img src="/images/techs/css.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
@@ -19,24 +19,20 @@ const TAB_DATA = [
           <img src="/images/techs/next-js.png"  className=' transition-transform duration-300 transform hover:-translate-y-2 hover:scale-105  relative w-full h-full' />
       </div> */}
 
-        <ul className="list-disc pl-2">
-          <li>Experienced in Customer Service </li>
-          <li>Strong Communication skills and </li>
-          <li>Experienced in writing user guides and software documentation based on IEEE standards</li>
-          <li>Proficient in Microsoft Word, Excel, Powerpoint, Teams, Visio</li>
-          <li>Knowledgeable in Boundary-Value Analysis, Postman, Black Box Testing , Manual Testing</li>
-          <li>Familiar in Content Creation Tools ( Adobe Premiere Pro, Illustrator, Tiktok Studio, Tikfinity)</li>
-          <li>Proficient in wireframing UI/UX Design using designing tools ( Canva, Wix, Figma, Axure RP, Justinmind )</li>
-          <li>Javascript</li>
-          <li>HTML, CSS, Jquery, TailwindCSS</li>
-          <li>MaterialUI </li>
-          <li>React</li>
-          <li>Next JS</li>
-        </ul>
+          <ul className="list-disc pl-2">
+            <li>Experienced in customer service and client-facing roles</li>
+            <li>Strong verbal and written communication skills</li>
+            <li>Skilled in writing user guides and software documentation based on IEEE standards</li>
+            <li>Proficient in Microsoft Office Suite (Word, Excel, PowerPoint), Microsoft Teams, and Visio</li>
+            <li>Knowledgeable in software testing techniques: Boundary-Value Analysis, Black Box Testing, Postman, Manual Testing</li>
+            <li>Familiar with content creation tools (Adobe Premiere Pro, Illustrator, TikTok Studio, Tikfinity) from part-time streaming experience</li>
+            <li>Proficient in wireframing and UI/UX design using tools like Figma, Axure RP, Canva, Justinmind, and Wix</li>
+            <li>Experienced in JavaScript and front-end technologies (HTML, CSS, jQuery, Tailwind CSS, Material UI)</li>
+            <li>Proficient in React and Next.js for building dynamic user interfaces</li>
+          </ul>
 
-  
       </>
-  
+
     ),
   },
   {
@@ -55,14 +51,14 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Published Paper writing on International Journal of Engineering and Advanced Technology (IJEAT)
-           <Link target="_blank" href={"https://www.ijeat.org/wp-content/uploads/papers/v9i1/A2633109119.pdf"}><span className="text-blue-500 italic"> Refer here</span></Link></li>
-           <li>
-            Earned English Certificate from EFSET.org <Link target="_blank" href={"https://cert.efset.org/E5FwDX"}><span className="text-blue-500 italic"> Refer here</span></Link>
-          </li>
+          <Link target="_blank" href={"https://www.ijeat.org/wp-content/uploads/papers/v9i1/A2633109119.pdf"}><span className="text-blue-500 italic"> Refer here</span></Link></li>
+        <li>
+          Earned English Certificate from EFSET.org <Link target="_blank" href={"https://cert.efset.org/E5FwDX"}><span className="text-blue-500 italic"> Refer here</span></Link>
+        </li>
 
       </ul>
-     
-    
+
+
     ),
   },
 ];
@@ -84,14 +80,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            
-          Hello everyone!
-          I started my career as a full-stack web developer with a passion for crafting interactive and responsive web applications. My experience spans working with technologies such as JavaScript, jQuery, React, PostgreSQL, PHP, HTML, CSS, and Git. You can find more details in my CV.
-          I thrive on learning new web technologies and applying them to enhance my expertise in development. 
-          Recently, I have been exploring new career paths where I can leverage my technical background while broadening my skill set.
-          I am particularly interested in transitioning to roles like technical writing, software testing, or IT support.
-          I am eager to collaborate with others, learn from the best in the industry, and contribute meaningfully to projects that deliver real value to consumers. 
-          Let us work together to create impactful solutions!
+
+            Hi, I am Syahmi, a former web developer transitioning into customer service and IT support. With a background in building user-friendly web applications, 
+            I have honed my ability to understand and solve user problems — skills that I now bring to customer-facing roles. 
+            This portfolio showcases my technical expertise and problem-solving abilities, which I am eager to apply in a support-oriented environment.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -116,7 +108,7 @@ const AboutSection = () => {
               Publications / Certifications
             </TabButton>
 
-            
+
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}

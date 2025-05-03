@@ -99,6 +99,9 @@ const ProjectSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mb-4">
         My Projects
       </h2>
+      <p className="text-center text-white mb-4">
+          Below are several self-initiated projects I created to sharpen my skills and keep my technical knowledge up to date.
+      </p>
 
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
