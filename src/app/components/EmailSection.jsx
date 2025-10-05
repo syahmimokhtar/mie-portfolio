@@ -118,9 +118,9 @@ const EmailSection = () => {
           best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link target="_blank" href="https://github.com/syahmimokhtar">
+          {/* <Link target="_blank" href="https://github.com/syahmimokhtar">
             <Image src={GithubIcon} alt="Github Icon" />
-          </Link>
+          </Link> */}
           <Link target="_blank" href="https://www.linkedin.com/in/muhammad-syahmi-118458189/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>

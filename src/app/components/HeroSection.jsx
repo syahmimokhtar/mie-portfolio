@@ -36,7 +36,9 @@ const HeroSection = () => {
 
   return (
     <section className="lg:py-16 ">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+
+        <div className="flex flex-col items-center text-center sm:text-left px-4">
+      {/* <div className="grid grid-cols-1 sm:grid-cols-12"> */}
         <motion.div initial={{opacity:0   , scale:0.5}}
           animate={{opacity:1,  scale:1}} 
           transition={{duration:0.5}}
@@ -46,24 +48,24 @@ const HeroSection = () => {
 
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-700">
-              Hello, Welcome to my 
-            </span>
+                Hello, Welcome to my&nbsp;
+              </span>
+              <span className="text-white">
+                <TypeAnimation
+                  sequence={['Portfolio', 2000]}
+                  wrapper="span"
+                  speed={50}
+                  style={{ fontSize: '60px', display: 'inline-block' }}
+                  repeat={Infinity}
+                />
+              </span>
+
             <br></br>
-            <TypeAnimation
-              sequence={[
-                'Portfolio',
-                2000,
-                
-              ]}
-              wrapper="span"
-              speed={50}
-              style={{ fontSize: '60px', display: 'inline-block' }}
-              repeat={Infinity}
-            />
+           
 
           </h1>
           <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">
-              I&apos;m looking for new opportunity in any job!.
+             Exploring new opportunities in Customer Service, IT Support, or Software Testing to grow my career and apply my problem-solving skills.
           </p>
           <div>
             {/* <button className="px-1 py-1 w-full sm:w-fit  rounded-full mr-4 bg-gradient-to-br from-blue-300 via-blue-500 to-blue-700 hover:bg-slate-200 text-white">

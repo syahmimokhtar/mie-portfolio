@@ -29,7 +29,7 @@ const ProjectSection = () => {
     {
       id: 3,
       title: "ValorantMie",
-      description: `Welcome to ValorantMie, your ultimate destination for all things in Valorant! Dive into our comprehensive info repository of agent profiles, weapons and much more!
+      description: `Welcome to ValorantMie — born from my love for Valorant and all things gaming. Turning my passion for clutch plays and chaotic fun into a website packed with Valorant goodness.
       All powered by the latest development crafted using Next.js , Tailwind CSS , React.`,
       image: "/images/projects/valorantmie/valorantMie.png",
       tag: ["All", "Web"],
