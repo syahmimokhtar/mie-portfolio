@@ -73,6 +73,52 @@ const ProjectSection = () => {
     },
 
 
+    {
+      id: 7,
+      title: "CRM System - Microsoft D365",
+      description: "Familiar with CRM systems for documenting internal notes and managing customer interactions from chat platforms.",
+      image: "/images/crm.png",
+      tag: ["All", "Other"],
+      gitUrl: "/",
+      previewUrl: "",
+    },
+
+    {
+      id: 8,
+      title: "DHL Shipment Creation",
+      description: "Familiar with DHL Shipment creation process",
+      image: "/images/shipment.png",
+      tag: ["All", "Other"],
+      gitUrl: "/",
+      previewUrl: "https://ecommerceportal.dhl.com/Portal/pages/login/userlogin.xhtml",
+    },
+
+
+    
+    {
+      id: 9,
+      title: "Shopify",
+      description: "Experience in Shopify for web order tracking and management.",
+      image: "/images/shopify.png",
+      tag: ["All", "Other"],
+      gitUrl: "/",
+      previewUrl: "https://www.shopify.com/my",
+    },
+
+
+    
+    {
+      id: 10,
+      title: "Sitegiant",
+      description: "Monitoring order movement and tracking for multiple store channels.",
+      image: "/images/sitegiant.png",
+      tag: ["All", "Other"],
+      gitUrl: "/",
+      previewUrl: "https://sitegiant.my/",
+    }
+
+
+
   ];
 
   const [tag, setTag] = useState("All");
@@ -100,7 +146,7 @@ const ProjectSection = () => {
         My Projects
       </h2>
       <p className="text-center text-white mb-4">
-          Below are several self-initiated projects aimed at maintaining the relevance of my technical skills.
+          The section below showcases a mix of my self-initiated projects and the skills I have gained through hands-on experience in customer service.
       </p>
 
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
